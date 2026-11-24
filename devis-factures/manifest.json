@@ -1,0 +1,20 @@
+{
+  "name": "Devis & Factures",
+  "short_name": "Devis",
+  "description": "Devis et factures conformes en mode France ou Royaume-Uni : mentions obligatoires, TVA / VAT, accès rapide main d’œuvre et forfaits, aperçu imprimable — hors ligne.",
+  "lang": "fr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f4f1",
+  "theme_color": "#b5502d",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "categories": ["business", "finance", "productivity"],
+  "display_override": ["standalone"]
+}
