@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mes applis</title>
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f4f4f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)">
+<style>
+:root{--bg:#f4f4f1;--card:#fff;--line:#e2e1dc;--text:#0b0b0b;--muted:#5d5c57;--accent:#0f766e}
+@media (prefers-color-scheme:dark){:root{--bg:#111110;--card:#1b1b1a;--line:#34342f;--text:#f0efec;--muted:#b9b8b0;--accent:#2bb3a3}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:720px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 28px) 18px 40px}
+h1{font-size:28px;margin:0 0 4px;letter-spacing:-.02em}
+.sub{color:var(--muted);margin:0 0 22px}
+ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+a.app{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;color:inherit;text-decoration:none}
+a.app:hover{border-color:var(--accent)}
+a.app img{width:56px;height:56px;border-radius:13px;flex:none}
+a.app b{display:block;font-size:17px}
+a.app span{display:block;color:var(--muted);font-size:14px}
+a.app i{margin-left:auto;font-style:normal;color:var(--muted);font-size:22px}
+.tip{margin-top:26px;font-size:14px;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Mes applis</h1>
+  <p class="sub">Outils personnels, utilisables hors ligne. Les données restent sur l’appareil.</p>
+  <ul id="apps">
+    <li><a class="app" href="budget/"><img src="budget/icon-192.png" alt=""><div><b>Budget du foyer</b><span>Budget mensuel détaillé, prévu et réel, avec synthèse annuelle.</span></div><i>›</i></a></li>
+  </ul>
+  <p class="tip">Pour installer un outil sur l’iPhone : ouvrez-le dans Safari, puis Partager → « Sur l’écran d’accueil ». Chaque outil s’installe séparément.</p>
+</main>
+</body>
+</html>
