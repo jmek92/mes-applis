@@ -1,0 +1,20 @@
+{
+  "name": "Batch cooking — planning, recettes & courses",
+  "short_name": "Batch",
+  "description": "Planificateur de batch cooking : cibles caloriques et macros, régimes, conservation optimale, recettes calibrées, session parallélisée et liste de courses dynamique — hors ligne.",
+  "lang": "fr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f4f1",
+  "theme_color": "#8a2c6b",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "categories": ["food", "health", "lifestyle"],
+  "display_override": ["standalone"]
+}
