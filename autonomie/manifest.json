@@ -1,0 +1,20 @@
+{
+  "name": "Autonomie & crise — préparation, évacuation, gestion de crise",
+  "short_name": "Autonomie",
+  "description": "Préparation et autonomie du foyer : eau, vivres, énergie, matériel, défense légale, sécurisation du domicile, protocoles et plans d’évacuation, diagnostic et guides de crise sans réseau — hors ligne.",
+  "lang": "fr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f4f1",
+  "theme_color": "#2f343c",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "categories": ["lifestyle", "utilities", "productivity"],
+  "display_override": ["standalone"]
+}
